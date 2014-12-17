@@ -2,7 +2,7 @@
 
 This little handy tag will sniff the location of the visitor using its IP address. Then you can display - or not - any content using rules.
 
-{exp:hop_location_sniffing rule="@EU"}only visible if IP = european country{/exp:hop_location_sniffing}
+    {exp:hop_location_sniffing rule="@EU"}only visible if IP = european country{/exp:hop_location_sniffing}
 
 ## Available rules :
 - continents : @AF, @EU, @AS, @NA, @SA, @AN, @OC
