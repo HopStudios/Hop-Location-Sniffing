@@ -4,6 +4,9 @@ This little handy tag will sniff the location of the visitor using its IP addres
 
     {exp:hop_location_sniffing rule="@EU"}only visible if IP = european country{/exp:hop_location_sniffing}
 
+**Important !**
+You need to go into IP to Nation Module in your EE CP and update the data at least once otherwise the IP to Nation table will be empty and this Plugin will not work.
+
 ## Available rules :
 - continents : @AF, @EU, @AS, @NA, @SA, @AN, @OC
 
